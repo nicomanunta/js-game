@@ -33,7 +33,7 @@
 .text-fredoka{
     font-family: "Fredoka", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 400;
+    font-weight: 500;
     font-style: normal;
 
 }  
@@ -50,6 +50,71 @@
     border: 0;
     border-radius: 10px;
     padding: 8px 15px;
-    font-size: 20px;
+    font-size: 25px;
+    box-shadow: 3px 5px rgba(0, 0, 0, 0.328);
 }
-.btn-game{}
+.btn-game:hover{
+    background-color: #F5F5F5;
+    color: #FF7F50;
+}
+.btn-game:active{
+    background-color: #f1efef;
+    color: #FF7F50;
+    box-shadow: 3px 5px rgba(0, 0, 0, 0.396);
+    
+}
+
+h1{
+    font-size: 30px;
+    font-weight: 800 !important;
+    text-shadow: 3px 3px rgba(0, 0, 0, 0.328);
+}
+
+.game {
+    width: 200px;
+    height: 200px;
+    
+    background-color: #FF7F50;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+    box-shadow: 5px 8px rgba(0, 0, 0, 0.328);
+    
+}
+
+.btn-position{
+    background-color: #FF7F50;
+    color: #F5F5F5;
+    border: 0;
+    border-radius: 8px;
+    padding: 5px 10px;
+    font-size: 18px;
+    box-shadow: 3px 5px rgba(0, 0, 0, 0.328);
+    position: absolute;
+    top: 170px;
+    left: 20px;
+}
+.btn-position:hover{
+    background-color: #F5F5F5;
+    color: #FF7F50;
+}
+.btn-position:active{
+    background-color: #f1efef;
+    color: #FF7F50;
+    box-shadow: 3px 5px rgba(0, 0, 0, 0.396);
+    
+}
+
+.user-score{
+    position: absolute;
+    right: 15px;
+    bottom: 235px;
+    font-size: 30px;
+}
+.computer-score{
+    position: absolute;
+    right: 15px;
+    top: 240px;
+    font-size: 30px;
+}
