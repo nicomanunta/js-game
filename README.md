@@ -13,7 +13,7 @@
 
 - **HTML**: per la struttura della pagina.
 - **CSS**/**Bootstrap**: per lo stile della pagina.
-- **JavaScript**: per la logica e la visualizzazione delle mani.
+- **JavaScript**: per la logica e l'animazione del dado.
 
 
 
